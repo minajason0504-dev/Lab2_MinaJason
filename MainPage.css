@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+header{
+    background: #ffc0cb;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+nav{
+    background: #ffd6e0;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #b03060;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: #ff69b4;
+}
+
+section{
+    padding: 30px;
+}
+
+#about div{
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 4px solid #ffc0cb;
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+    color: #d63384;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+#contact{
+    background: #ffe4ec;
+    text-align: center;
+    border-top: 2px solid #ffc0cb;
+}
+
+#about, 
+#contact {
+    text-align: center;
+}
+
+#about ul,
+#contact ul {
+    display: inline-block;
+    text-align: left;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+footer {
+    background: #ffc0cb;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
